@@ -1,2 +1,2 @@
 # Survery.gg
-custom survey creation site
+custom survey creation site with vite
