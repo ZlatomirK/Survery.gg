@@ -1,0 +1,71 @@
+/* SurveyFormStyle.css */
+
+.survey-container {
+  background-color: rgb(200, 200, 200, 0.3);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  display: grid;
+  gap: 16px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.genderChoices {
+  display: flex;
+  justify-content: space-between;
+}
+
+.genderChoice {
+  display: flex;
+  flex-direction: column;
+}
+
+.interests {
+  display: flex;
+  justify-content: space-between;
+}
+
+.interest {
+  display: flex;
+  flex-direction: column;
+}

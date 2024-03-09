@@ -1,0 +1,21 @@
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("https://images4.alphacoders.com/451/45196.jpg"); /* Replace with the actual path to your image */
+  background-size: cover;
+  background-position: top; /* Adjusted to 'top' */
+  background-repeat: no-repeat;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 1000;
+  color: white;
+  background-color: rgba(0, 0, 20, 0.8);
+}
+
+/* styles.css */
+
+/* Add additional styles for your content */
