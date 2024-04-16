@@ -1,3 +1,4 @@
+//legacy code
 import { useState } from "react";
 import "./SurveryFormStyle.css";
 

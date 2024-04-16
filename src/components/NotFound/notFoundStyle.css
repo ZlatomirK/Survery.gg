@@ -1,0 +1,9 @@
+.notFound {
+  margin: auto;
+  margin-top: 10%;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  color: #333;
+  font-size: 100px;
+}

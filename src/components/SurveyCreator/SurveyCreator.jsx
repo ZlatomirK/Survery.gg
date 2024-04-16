@@ -57,8 +57,12 @@ const SurveyCreator = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Add your logic to handle the submitted survey data
-    console.log("Survey Title:", surveyTitle);
-    console.log("Survey Questions:", questions);
+    const customSurveryParameters = {
+      surveyTitle: surveyTitle,
+      questions: questions,
+    };
+    // send this data to the server to put it into the database
+    console.log(customSurveryParameters);
   };
 
   return (

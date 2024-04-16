@@ -5,7 +5,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url("https://images4.alphacoders.com/451/45196.jpg"); /* Replace with the actual path to your image */
+  background-image: url("./assets/pexels-stephan-seeber-1261728.jpg"); /* Replace with the actual path to your image */
   background-size: cover;
   background-position: top; /* Adjusted to 'top' */
   background-repeat: no-repeat;
